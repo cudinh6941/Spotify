@@ -32,6 +32,11 @@
 		D88FCCC52A3FFE9B00C9470D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88FCCC42A3FFE9B00C9470D /* Assets.xcassets */; };
 		D88FCCC82A3FFE9B00C9470D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88FCCC62A3FFE9B00C9470D /* LaunchScreen.storyboard */; };
 		D8AA1A6D2A83666300689B9B /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AA1A6C2A83666300689B9B /* SettingsModels.swift */; };
+		D8DDB4C62A848B580006E260 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDB4C52A848B580006E260 /* NewReleasesResponse.swift */; };
+		D8DDB4C82A8490560006E260 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDB4C72A8490560006E260 /* UserImage.swift */; };
+		D8DDB4CA2A84980A0006E260 /* FeaturedPlaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDB4C92A84980A0006E260 /* FeaturedPlaylistsResponse.swift */; };
+		D8DDB4CC2A84B5D90006E260 /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDB4CB2A84B5D90006E260 /* RecommendedGenresResponse.swift */; };
+		D8DDB4CE2A84D6940006E260 /* RecomendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DDB4CD2A84D6940006E260 /* RecomendationsResponse.swift */; };
 		DBD5731C2302A6AFC59C662F /* Pods_LuyenVoCong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAB2488E85ED83A9523BB84 /* Pods_LuyenVoCong.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,11 @@
 		D88FCCC72A3FFE9B00C9470D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88FCCC92A3FFE9B00C9470D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8AA1A6C2A83666300689B9B /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		D8DDB4C52A848B580006E260 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		D8DDB4C72A8490560006E260 /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		D8DDB4C92A84980A0006E260 /* FeaturedPlaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistsResponse.swift; sourceTree = "<group>"; };
+		D8DDB4CB2A84B5D90006E260 /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
+		D8DDB4CD2A84D6940006E260 /* RecomendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationsResponse.swift; sourceTree = "<group>"; };
 		FABC2EA7B72B35A9D9CD0DCF /* Pods-LuyenVoCong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuyenVoCong.release.xcconfig"; path = "Target Support Files/Pods-LuyenVoCong/Pods-LuyenVoCong.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +138,11 @@
 				D87F066F2A79FDC700A56A16 /* UserProfile.swift */,
 				D87F06732A7A4A6500A56A16 /* AuthResponse.swift */,
 				D8AA1A6C2A83666300689B9B /* SettingsModels.swift */,
+				D8DDB4C52A848B580006E260 /* NewReleasesResponse.swift */,
+				D8DDB4C72A8490560006E260 /* UserImage.swift */,
+				D8DDB4C92A84980A0006E260 /* FeaturedPlaylistsResponse.swift */,
+				D8DDB4CB2A84B5D90006E260 /* RecommendedGenresResponse.swift */,
+				D8DDB4CD2A84D6940006E260 /* RecomendationsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -361,6 +376,8 @@
 				D87F065C2A79FBD800A56A16 /* ProfileViewController.swift in Sources */,
 				D87F064E2A79FACE00A56A16 /* TabBarViewController.swift in Sources */,
 				D87F06742A7A4A6500A56A16 /* AuthResponse.swift in Sources */,
+				D8DDB4C62A848B580006E260 /* NewReleasesResponse.swift in Sources */,
+				D8DDB4C82A8490560006E260 /* UserImage.swift in Sources */,
 				D87F066C2A79FD3900A56A16 /* AudioTrack.swift in Sources */,
 				D87F06682A79FCFF00A56A16 /* APICaller.swift in Sources */,
 				D88FCCC02A3FFE9900C9470D /* HomeViewController.swift in Sources */,
@@ -374,7 +391,10 @@
 				D87F06602A79FC1A00A56A16 /* PlaylistViewController.swift in Sources */,
 				D88FCCBE2A3FFE9900C9470D /* SceneDelegate.swift in Sources */,
 				D87F065E2A79FC0100A56A16 /* PlayerViewController.swift in Sources */,
+				D8DDB4CA2A84980A0006E260 /* FeaturedPlaylistsResponse.swift in Sources */,
+				D8DDB4CE2A84D6940006E260 /* RecomendationsResponse.swift in Sources */,
 				D87F065A2A79FBBD00A56A16 /* SettingsViewController.swift in Sources */,
+				D8DDB4CC2A84B5D90006E260 /* RecommendedGenresResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
