@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82B0A432A98523500F14B4E /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B0A422A98523500F14B4E /* AlbumViewController.swift */; };
+		D82B0A452A985CF900F14B4E /* AlbumDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B0A442A985CF900F14B4E /* AlbumDetailsResponse.swift */; };
+		D82B0A472A988A0D00F14B4E /* PlaylistDetailResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B0A462A988A0D00F14B4E /* PlaylistDetailResponses.swift */; };
+		D857EBAF2A9C54B3002CCAB2 /* LuyenVoCongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EBAE2A9C54B3002CCAB2 /* LuyenVoCongUITests.swift */; };
+		D857EBB12A9C54B3002CCAB2 /* LuyenVoCongUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EBB02A9C54B3002CCAB2 /* LuyenVoCongUITestsLaunchTests.swift */; };
+		D86C78CB2A9729430043433B /* NewRealeaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78CA2A9729430043433B /* NewRealeaseCollectionViewCell.swift */; };
+		D86C78CD2A9729840043433B /* FeaturedPlaylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78CC2A9729840043433B /* FeaturedPlaylistCollectionViewCell.swift */; };
+		D86C78CF2A9729BD0043433B /* RecommededTrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78CE2A9729BD0043433B /* RecommededTrackCollectionViewCell.swift */; };
+		D86C78D12A972A9B0043433B /* NewRealeasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78D02A972A9B0043433B /* NewRealeasesCellViewModel.swift */; };
+		D86C78D32A975C720043433B /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78D22A975C720043433B /* FeaturedPlaylistCellViewModel.swift */; };
+		D86C78D52A975CE00043433B /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C78D42A975CDF0043433B /* RecommendedTrackCellViewModel.swift */; };
 		D87F064E2A79FACE00A56A16 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F064D2A79FACE00A56A16 /* TabBarViewController.swift */; };
 		D87F06502A79FAFE00A56A16 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F064F2A79FAFE00A56A16 /* SearchViewController.swift */; };
 		D87F06522A79FB1B00A56A16 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87F06512A79FB1B00A56A16 /* LibraryViewController.swift */; };
@@ -40,9 +51,31 @@
 		DBD5731C2302A6AFC59C662F /* Pods_LuyenVoCong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AAB2488E85ED83A9523BB84 /* Pods_LuyenVoCong.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D857EBB22A9C54B3002CCAB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88FCCB02A3FFE9900C9470D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88FCCB72A3FFE9900C9470D;
+			remoteInfo = LuyenVoCong;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		64621D583EDAFE1EFB3E606A /* Pods-LuyenVoCong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuyenVoCong.debug.xcconfig"; path = "Target Support Files/Pods-LuyenVoCong/Pods-LuyenVoCong.debug.xcconfig"; sourceTree = "<group>"; };
 		8AAB2488E85ED83A9523BB84 /* Pods_LuyenVoCong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuyenVoCong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82B0A422A98523500F14B4E /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		D82B0A442A985CF900F14B4E /* AlbumDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailsResponse.swift; sourceTree = "<group>"; };
+		D82B0A462A988A0D00F14B4E /* PlaylistDetailResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailResponses.swift; sourceTree = "<group>"; };
+		D857EBAC2A9C54B3002CCAB2 /* LuyenVoCongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuyenVoCongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D857EBAE2A9C54B3002CCAB2 /* LuyenVoCongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuyenVoCongUITests.swift; sourceTree = "<group>"; };
+		D857EBB02A9C54B3002CCAB2 /* LuyenVoCongUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuyenVoCongUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D86C78CA2A9729430043433B /* NewRealeaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRealeaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		D86C78CC2A9729840043433B /* FeaturedPlaylistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		D86C78CE2A9729BD0043433B /* RecommededTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommededTrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		D86C78D02A972A9B0043433B /* NewRealeasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRealeasesCellViewModel.swift; sourceTree = "<group>"; };
+		D86C78D22A975C720043433B /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
+		D86C78D42A975CDF0043433B /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		D87F064D2A79FACE00A56A16 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D87F064F2A79FAFE00A56A16 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D87F06512A79FB1B00A56A16 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +112,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D857EBA92A9C54B3002CCAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D88FCCB52A3FFE9900C9470D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,9 +147,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D857EBAD2A9C54B3002CCAB2 /* LuyenVoCongUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D857EBAE2A9C54B3002CCAB2 /* LuyenVoCongUITests.swift */,
+				D857EBB02A9C54B3002CCAB2 /* LuyenVoCongUITestsLaunchTests.swift */,
+			);
+			path = LuyenVoCongUITests;
+			sourceTree = "<group>";
+		};
 		D8639EE02A43E3720062B3FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D86C78C92A9729070043433B /* Browse */,
 				D88FCCC62A3FFE9B00C9470D /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -122,9 +172,22 @@
 			path = DataOfCell;
 			sourceTree = "<group>";
 		};
+		D86C78C92A9729070043433B /* Browse */ = {
+			isa = PBXGroup;
+			children = (
+				D86C78CA2A9729430043433B /* NewRealeaseCollectionViewCell.swift */,
+				D86C78CC2A9729840043433B /* FeaturedPlaylistCollectionViewCell.swift */,
+				D86C78CE2A9729BD0043433B /* RecommededTrackCollectionViewCell.swift */,
+			);
+			path = Browse;
+			sourceTree = "<group>";
+		};
 		D87F06482A79F5EA00A56A16 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D86C78D02A972A9B0043433B /* NewRealeasesCellViewModel.swift */,
+				D86C78D22A975C720043433B /* FeaturedPlaylistCellViewModel.swift */,
+				D86C78D42A975CDF0043433B /* RecommendedTrackCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -143,6 +206,8 @@
 				D8DDB4C92A84980A0006E260 /* FeaturedPlaylistsResponse.swift */,
 				D8DDB4CB2A84B5D90006E260 /* RecommendedGenresResponse.swift */,
 				D8DDB4CD2A84D6940006E260 /* RecomendationsResponse.swift */,
+				D82B0A442A985CF900F14B4E /* AlbumDetailsResponse.swift */,
+				D82B0A462A988A0D00F14B4E /* PlaylistDetailResponses.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -198,6 +263,7 @@
 				D87F065D2A79FC0100A56A16 /* PlayerViewController.swift */,
 				D87F065F2A79FC1A00A56A16 /* PlaylistViewController.swift */,
 				D87F06612A79FC6200A56A16 /* SearchResultsViewController.swift */,
+				D82B0A422A98523500F14B4E /* AlbumViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -206,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				D88FCCBA2A3FFE9900C9470D /* LuyenVoCong */,
+				D857EBAD2A9C54B3002CCAB2 /* LuyenVoCongUITests */,
 				D88FCCB92A3FFE9900C9470D /* Products */,
 				3967DB5FD6F1D6ADE3289599 /* Pods */,
 				5337C70B2086D5735955BAC4 /* Frameworks */,
@@ -216,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				D88FCCB82A3FFE9900C9470D /* LuyenVoCong.app */,
+				D857EBAC2A9C54B3002CCAB2 /* LuyenVoCongUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,6 +306,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D857EBAB2A9C54B3002CCAB2 /* LuyenVoCongUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D857EBB62A9C54B3002CCAB2 /* Build configuration list for PBXNativeTarget "LuyenVoCongUITests" */;
+			buildPhases = (
+				D857EBA82A9C54B3002CCAB2 /* Sources */,
+				D857EBA92A9C54B3002CCAB2 /* Frameworks */,
+				D857EBAA2A9C54B3002CCAB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D857EBB32A9C54B3002CCAB2 /* PBXTargetDependency */,
+			);
+			name = LuyenVoCongUITests;
+			productName = LuyenVoCongUITests;
+			productReference = D857EBAC2A9C54B3002CCAB2 /* LuyenVoCongUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D88FCCB72A3FFE9900C9470D /* LuyenVoCong */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D88FCCCC2A3FFE9B00C9470D /* Build configuration list for PBXNativeTarget "LuyenVoCong" */;
@@ -265,9 +351,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					D857EBAB2A9C54B3002CCAB2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D88FCCB72A3FFE9900C9470D;
+					};
 					D88FCCB72A3FFE9900C9470D = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -287,11 +377,19 @@
 			projectRoot = "";
 			targets = (
 				D88FCCB72A3FFE9900C9470D /* LuyenVoCong */,
+				D857EBAB2A9C54B3002CCAB2 /* LuyenVoCongUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D857EBAA2A9C54B3002CCAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D88FCCB62A3FFE9900C9470D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +461,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D857EBA82A9C54B3002CCAB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857EBB12A9C54B3002CCAB2 /* LuyenVoCongUITestsLaunchTests.swift in Sources */,
+				D857EBAF2A9C54B3002CCAB2 /* LuyenVoCongUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D88FCCB42A3FFE9900C9470D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,7 +478,11 @@
 				D87F066A2A79FD2D00A56A16 /* Playlist.swift in Sources */,
 				D87F06642A79FCBD00A56A16 /* AuthManager.swift in Sources */,
 				D87F06622A79FC6200A56A16 /* SearchResultsViewController.swift in Sources */,
+				D86C78D52A975CE00043433B /* RecommendedTrackCellViewModel.swift in Sources */,
 				D87F06662A79FCF200A56A16 /* HapticsManager.swift in Sources */,
+				D82B0A432A98523500F14B4E /* AlbumViewController.swift in Sources */,
+				D86C78D32A975C720043433B /* FeaturedPlaylistCellViewModel.swift in Sources */,
+				D86C78D12A972A9B0043433B /* NewRealeasesCellViewModel.swift in Sources */,
 				D87F06582A79FB9900A56A16 /* WelcomeViewController.swift in Sources */,
 				D87F065C2A79FBD800A56A16 /* ProfileViewController.swift in Sources */,
 				D87F064E2A79FACE00A56A16 /* TabBarViewController.swift in Sources */,
@@ -383,14 +494,19 @@
 				D88FCCC02A3FFE9900C9470D /* HomeViewController.swift in Sources */,
 				D87F06562A79FB8400A56A16 /* AuthViewController.swift in Sources */,
 				D87F06702A79FDC700A56A16 /* UserProfile.swift in Sources */,
+				D86C78CD2A9729840043433B /* FeaturedPlaylistCollectionViewCell.swift in Sources */,
 				D87F06722A7A283800A56A16 /* Extensions.swift in Sources */,
+				D82B0A472A988A0D00F14B4E /* PlaylistDetailResponses.swift in Sources */,
 				D88FCCBC2A3FFE9900C9470D /* AppDelegate.swift in Sources */,
 				D87F066E2A79FDA800A56A16 /* Artist.swift in Sources */,
+				D86C78CB2A9729430043433B /* NewRealeaseCollectionViewCell.swift in Sources */,
 				D8AA1A6D2A83666300689B9B /* SettingsModels.swift in Sources */,
 				D87F06522A79FB1B00A56A16 /* LibraryViewController.swift in Sources */,
 				D87F06602A79FC1A00A56A16 /* PlaylistViewController.swift in Sources */,
+				D86C78CF2A9729BD0043433B /* RecommededTrackCollectionViewCell.swift in Sources */,
 				D88FCCBE2A3FFE9900C9470D /* SceneDelegate.swift in Sources */,
 				D87F065E2A79FC0100A56A16 /* PlayerViewController.swift in Sources */,
+				D82B0A452A985CF900F14B4E /* AlbumDetailsResponse.swift in Sources */,
 				D8DDB4CA2A84980A0006E260 /* FeaturedPlaylistsResponse.swift in Sources */,
 				D8DDB4CE2A84D6940006E260 /* RecomendationsResponse.swift in Sources */,
 				D87F065A2A79FBBD00A56A16 /* SettingsViewController.swift in Sources */,
@@ -399,6 +515,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D857EBB32A9C54B3002CCAB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88FCCB72A3FFE9900C9470D /* LuyenVoCong */;
+			targetProxy = D857EBB22A9C54B3002CCAB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D88FCCC62A3FFE9B00C9470D /* LaunchScreen.storyboard */ = {
@@ -412,6 +536,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D857EBB42A9C54B3002CCAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aris.LuyenVoCongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuyenVoCong;
+			};
+			name = Debug;
+		};
+		D857EBB52A9C54B3002CCAB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aris.LuyenVoCongUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuyenVoCong;
+			};
+			name = Release;
+		};
 		D88FCCCA2A3FFE9B00C9470D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -532,18 +692,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6C99TY569A;
+				DEVELOPMENT_TEAM = 6C99TY569A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LuyenVoCong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +711,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aris.LuyenVoCong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ARIS Adhoc provisioning";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -565,18 +723,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6C99TY569A;
+				DEVELOPMENT_TEAM = 6C99TY569A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LuyenVoCong/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -585,7 +742,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aris.LuyenVoCong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "ARIS Adhoc provisioning";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,6 +751,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D857EBB62A9C54B3002CCAB2 /* Build configuration list for PBXNativeTarget "LuyenVoCongUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D857EBB42A9C54B3002CCAB2 /* Debug */,
+				D857EBB52A9C54B3002CCAB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D88FCCB32A3FFE9900C9470D /* Build configuration list for PBXProject "LuyenVoCong" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
